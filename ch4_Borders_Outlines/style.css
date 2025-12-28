@@ -1,0 +1,31 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+
+  /* border-style: solid;
+    border-color: blue;
+    border-width: 5px; */
+
+  /* 3dexdaas line 1 line ku soo kobi kartaa */
+
+  border: groove blue 5px;
+  border-radius: 10px;
+
+  border-right-color: black;
+  border-right-width: 10px;
+  border-right-style: dashed;
+  /* border completed */
+
+  margin: 50px;
+
+  /* outline-style: dashed;
+  outline-width: 8px;
+  outline-color: red; */
+
+  /* 3dexdaas line 1 line ku soo kobi kartaa */
+
+  outline: dashed red 8px;
+
+  outline-offset: 5px;
+}
