@@ -3,14 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction</title>
+    <title>CSS Introduction</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- this is the external rerence of css -->
     <style>
-        
+        h1{
+            color: blue;
+        }
+        /*this is internal css style */
     </style>
 </head>
 <body>
-    <h1 style="color: red; text-align: center; font-size:100px;">Welcome</h1>
-    <h1>to</h1>
-    <h1>CSS</h1>
+    <h1 style="color: red;" id="lio" class="maaw"><!-- this is inline css style -->Welcome</h1>
+    <h1 class="maaw">to CSS </h1>
+     <!--1. Qodobkaan wuxuu ka hadlaa priority
+      waxa sameyay color h1 inline:red, internal:blue & 
+      external:black sida ku muqato css wuxuu priority sinaa 
+      styleka ugu dhow hada inline ugu dhow qaatay lakin 
+      h1 elementiga kale asiga inline malahan waxaa ugu dhow 
+      internal kaasbuu qaatay, hadii your boss imaado oo ku 
+      dhaho 2h1 waxaaba uwada rabaa inee red wada noqdaan 
+      adigoon waxba delete gareen, waxaa tagee styleka redka
+      ah ka dib waxaa dhahee !important -->
+    
 </body>
 </html>
