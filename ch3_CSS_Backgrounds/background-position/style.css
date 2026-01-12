@@ -1,0 +1,119 @@
+.one {
+  height: 200px;
+  background-image: url(img.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  border: 5px black solid;
+  margin: 10px;
+}
+.two {
+  height: 200px;
+  background-image: url(img.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  border: 5px black solid;
+  margin: 10px;
+}
+
+.three {
+  height: 200px;
+  background-image: url(img.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  border: 5px black solid;
+  margin: 10px;
+}
+
+.four {
+  height: 200px;
+  background-image: url(img.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  border: 5px black solid;
+  margin: 10px;
+}
+
+.five {
+  height: 200px;
+  background-image: url(img.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  border: 5px black solid;
+  margin: 10px;
+}
+.six {
+  height: 200px;
+  background-image: url(img.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  border: 5px black solid;
+  margin: 10px;
+}
+.seven {
+  height: 200px;
+  background-image: url(img.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  border: 5px black solid;
+  margin: 10px;
+}
+.eight {
+  height: 200px;
+  background-image: url(img.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 5px black solid;
+  margin: 10px;
+}
+.nine {
+  height: 200px;
+  background-image: url(img.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  border: 5px black solid;
+  margin: 10px;
+}
+.ten {
+  height: 200px;
+  background-image: url(img.png);
+  background-repeat: no-repeat;
+  background-position: 25% 75%;
+  border: 5px black solid;
+  margin: 10px;
+}
+.eleven {
+  height: 200px;
+  background-image: url(img.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+   /* micnhaeeda waxa waye 50 % start from left to right (Horizontal ) 50 %start from top to down(Vertical) */
+  border: 5px black solid;
+  margin: 10px;
+}
+.twelve {
+  height: 200px;
+  background-image: url(img.png);
+  background-repeat: no-repeat;
+  background-position: 10px 200px;
+ /* micnhaeeda waxa waye 10 px start from left to right (Horizontal ) 200px start from top to down(Vertical) */
+  border: 5px black solid;
+  margin: 10px;
+}
+.thirteen {
+  height: 200px;
+  background-image: url(img.png);
+  background-repeat: no-repeat;
+  background-position: 50px 50px;
+  /* micnhaeeda waxa waye 50 px start from left to right(Horizontal), 50 px start from top to down(Vertical) */
+  border: 5px black solid;
+  margin: 10px;
+}
+.fourteen {
+  height: 200px;
+  background-image: url(img.png);
+  background-repeat: no-repeat;
+  background-position: initial;
+  /* meens ku celi qiimaha asalka by default oo ah 0%,0% */
+  border: 5px black solid;
+  margin: 10px;
+}

@@ -1,0 +1,35 @@
+.one{
+    height: 300px;
+    background-image: url(stars.jpg);
+    background-size: contain;
+}
+.two{
+    height: 300px;
+    background-image: url(stars.jpg);
+    background-size: cover;
+}
+.three{
+    height: 300px;
+    background-image: url(stars.jpg);
+    background-size: auto;
+}
+.four{
+height: 300px;
+    background-image: url(stars.jpg);
+    background-size: 50% 50%;
+}
+.five{
+    height: 300px;
+    background-image: url(stars.jpg);
+    background-size: 200px 300px;
+}
+.six{
+    height: 300px;
+    background-image: url(stars.jpg);
+    background-size: inherit;
+}
+.seven{
+    height: 300px;
+    background-image: url(stars.jpg);
+    background-size: initial;
+}

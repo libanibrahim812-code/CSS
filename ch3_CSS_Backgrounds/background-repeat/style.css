@@ -1,0 +1,52 @@
+.one {
+  height: 420px;
+  background-image: url(images.png);
+  background-repeat: repeat;
+  border: 5px black solid;
+  margin-bottom: 4px;
+}
+
+.two {
+    height: 420px;
+    background-image: url(img.png);
+    background-repeat: no-repeat;
+    border: 5px black solid;
+    margin-bottom: 4px;
+}
+.three {
+    height: 420px;
+    background-image: url(images.png);
+    background-repeat: repeat-x;
+     border: 5px black solid;
+     margin-bottom: 4px;
+}
+.four {
+    height: 420px;
+    background-image: url(img.png);
+    background-repeat: repeat-y;
+     border: 5px black solid;
+     margin-bottom: 4px;
+}
+.five {
+    height: 420px;
+    background-image: url(images.png);
+    background-repeat: space;
+     border: 5px black solid;
+     margin-bottom: 4px;
+}
+.six {
+    height: 420px;
+    background-image: url(img.png);
+    background-repeat: round;
+     border: 5px black solid;
+     margin-bottom: 4px;
+
+} 
+.seven {
+    height: 420px;
+    background-image: url(images.png);
+    background-repeat: initial;
+     border: 5px black solid;
+    
+} 
+
