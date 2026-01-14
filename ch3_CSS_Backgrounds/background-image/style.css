@@ -1,24 +1,3 @@
-body {
-  background-color: rgb(252, 252, 252);
-}
-
-/* sababta aan u isticmaalay maxay tahay "min-height: 100vh;" waxa waye image ma fahmoyo 
-dimension oo body waxay ka dhigantahay entire screen *** waxaa kaloo ku xlin kartaa 
-background-attachment:fixed; inaa dhahdo */
-
-/* Div kaan waa mesha aan ka fahmay in image uu rabo dimension uu fahmo si hadaa ugu 
-sheegto bottom aad oo uu adop hadi kale ha1 aktisa ka dhigana bottom top iyo center */
-
-/* div{
-width: 500px;
-height: 500px;
-background-image: url(https://external-preview.redd.it/dimension-dj-turn-it-up-v0
--eieGdMtO3xAxtm_Sr-nXshR-LVZ45dvsP4uDIzxg3vk.jpg?auto=webp&s=92aeb829db8bea4bcef5c9d07ff13da190015842);
-background-repeat: no-repeat;
-background-color: brown;
-background-position: center bottom;
-} */
-
 .one {
   height: 200px;
   background-image: url(https://external-preview.redd.it/dimension-dj-turn-it-up-v0-eieGdMtO3xAxtm_Sr-nXshR-LVZ45dvsP4uDIzxg3vk.jpg?auto=webp&s=92aeb829db8bea4bcef5c9d07ff13da190015842);
@@ -33,16 +12,16 @@ background-position: center bottom;
   margin-bottom: 2px;
 }
 
-.three {
+.child {
   height: 200px;
-  background-image: initial;
+  background-image: inherit;
   border: solid black 4px;
   margin-bottom: 2px;
 }
 
 .four {
   height: 200px;
-  background-image: inherit;
+  background-image: initial;
   border: solid black 4px;
   margin-bottom: 2px;
 }
@@ -70,11 +49,26 @@ background-position: center bottom;
 
 .eight {
   height: 200px;
-  background-image: initial;
+  background-image: repeating-radial-gradient(red 10%, yellow 50%, blue 10%);
   border: solid black 4px;
   margin-bottom: 2px;
 }
+
 .nine {
+  height: 200px;
+  background-image: conic-gradient(red, green, yellow);
+  border: solid black 4px;
+  margin-bottom: 2px;
+}
+
+.ten {
+  height: 200px;
+  background-image: repeating-conic-gradient(red 10%, yellow 50%, blue 10%);
+  border: solid black 4px;
+  margin-bottom: 2px;
+}
+
+.eleven {
   height: 200px;
   background-image: url(sun.avif), url(images.jpg);
   background-repeat: no-repeat, repeat;

@@ -1,35 +1,37 @@
-.one{
-    height: 300px;
-    background-image: url(stars.jpg);
-    background-size: contain;
+.one {
+  height: 300px;
+  background-image: url(stars.jpg);
+  background-size: contain;
 }
-.two{
-    height: 300px;
-    background-image: url(stars.jpg);
-    background-size: cover;
+.two {
+  height: 300px;
+  background-image: url(stars.jpg);
+  background-size: cover;
 }
-.three{
-    height: 300px;
-    background-image: url(stars.jpg);
-    background-size: auto;
+.three {
+  height: 300px;
+  background-image: url(stars.jpg);
+  background-size: auto;
 }
-.four{
-height: 300px;
-    background-image: url(stars.jpg);
-    background-size: 50% 50%;
+.four {
+  height: 300px;
+  background-image: url(stars.jpg);
+  background-size: 50% 50%;
+  /* first value declares width of the background image and the second value declares height of the background image */
 }
-.five{
-    height: 300px;
-    background-image: url(stars.jpg);
-    background-size: 200px 300px;
+.five {
+  height: 300px;
+  background-image: url(stars.jpg);
+  background-size: 200px 300px;
+  /* first value declares width of the background image and the second value declares height of the background image */
 }
-.six{
-    height: 300px;
-    background-image: url(stars.jpg);
-    background-size: inherit;
+.six {
+  height: 300px;
+  background-image: url(stars.jpg);
+  background-size: inherit;
 }
-.seven{
-    height: 300px;
-    background-image: url(stars.jpg);
-    background-size: initial;
+.seven {
+  height: 300px;
+  background-image: url(stars.jpg);
+  background-size: initial;
 }

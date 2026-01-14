@@ -78,6 +78,7 @@
   background-image: url(img.png);
   background-repeat: no-repeat;
   background-position: 25% 75%;
+  /* micnhaeeda waxa waye 25 % start from left to right (Horizontal ) 75 %start from top to down(Vertical) */
   border: 5px black solid;
   margin: 10px;
 }
@@ -86,7 +87,7 @@
   background-image: url(img.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
-   /* micnhaeeda waxa waye 50 % start from left to right (Horizontal ) 50 %start from top to down(Vertical) */
+  /* micnhaeeda waxa waye 50 % start from left to right (Horizontal ) 50 %start from top to down(Vertical) */
   border: 5px black solid;
   margin: 10px;
 }
@@ -94,8 +95,8 @@
   height: 200px;
   background-image: url(img.png);
   background-repeat: no-repeat;
-  background-position: 10px 200px;
- /* micnhaeeda waxa waye 10 px start from left to right (Horizontal ) 200px start from top to down(Vertical) */
+  background-position: 800px 30px;
+  /* micnhaeeda waxa waye 800 px start from left to right (Horizontal ) 30px start from top to down(Vertical) */
   border: 5px black solid;
   margin: 10px;
 }

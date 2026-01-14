@@ -7,46 +7,52 @@
 }
 
 .two {
-    height: 420px;
-    background-image: url(img.png);
-    background-repeat: no-repeat;
-    border: 5px black solid;
-    margin-bottom: 4px;
+  height: 420px;
+  background-image: url(img.png);
+  background-repeat: no-repeat;
+  border: 5px black solid;
+  margin-bottom: 4px;
 }
 .three {
-    height: 420px;
-    background-image: url(images.png);
-    background-repeat: repeat-x;
-     border: 5px black solid;
-     margin-bottom: 4px;
+  height: 420px;
+  background-image: url(images.png);
+  background-repeat: repeat-x;
+  border: 5px black solid;
+  margin-bottom: 4px;
 }
 .four {
-    height: 420px;
-    background-image: url(img.png);
-    background-repeat: repeat-y;
-     border: 5px black solid;
-     margin-bottom: 4px;
+  height: 420px;
+  background-image: url(img.png);
+  background-repeat: repeat-y;
+  border: 5px black solid;
+  margin-bottom: 4px;
 }
 .five {
-    height: 420px;
-    background-image: url(images.png);
-    background-repeat: space;
-     border: 5px black solid;
-     margin-bottom: 4px;
+  height: 420px;
+  background-image: url(images.png);
+  background-repeat: space;
+  /* sawirada geeska bidix iyo midig la dhigaa marka hore ka dib dhexda kuwa ahaaa la dhigaa ayadoo la siinayo space isla eg clipping in sawir qeeb laga jaro ma dhaceeso*/
+  border: 5px black solid;
+  margin-bottom: 4px;
 }
 .six {
-    height: 420px;
-    background-image: url(img.png);
-    background-repeat: round;
-     border: 5px black solid;
-     margin-bottom: 4px;
-
-} 
+  height: 420px;
+  background-image: url(img.png);
+  background-repeat: round;
+  /* wa in sawirka la soo celceliyaa laguna fit gareya space div hadii uu sawirka yaryahay la stretch grayaa hadii sawirku wayn yaay la soo yareeyaa */
+  border: 5px black solid;
+  margin-bottom: 4px;
+}
 .seven {
-    height: 420px;
-    background-image: url(images.png);
-    background-repeat: initial;
-     border: 5px black solid;
-    
-} 
+  height: 420px;
+  background-image: url(images.png);
+  background-repeat: initial;
+  border: 5px black solid;
+}
 
+.eight {
+  height: 420px;
+  background-image: url(img.png);
+  background-repeat: inherit;
+  border: 5px black solid;
+}
