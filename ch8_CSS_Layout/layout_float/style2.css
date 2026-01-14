@@ -1,0 +1,29 @@
+.box_siin{
+background-color: aqua;
+text-align: center;
+padding: 3rem;
+font-size: 1.5rem;
+color: blue;
+box-shadow: 15px 15px 15px #333;
+}
+
+.container{
+color: white;
+background-color: red;
+}
+.A{
+float: left;
+width: 20%;
+background-color: antiquewhite;
+}
+.B{
+float: right;
+width: 20%;
+background-color: yellow;
+}
+
+.container::after{
+    content: " "; 
+    display: block;
+    clear: both;
+}

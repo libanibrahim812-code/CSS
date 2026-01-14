@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    font-weight: 100px;
+}
+.container{
+height: 700px;
+width: 700px;
+background-color: lightgray;
+position: relative;  /* div parents waxaa kuu fican inaa kan dorato si flexibility u hesho*/
+margin: auto; /*center kaga dhigaa*/
+overflow: auto; /*containerkaag haduu heightkis ama widthkiisa gaabto ee elementska aa gelisay qaar soo baxsadaan walala ekeesinaa*/
+
+}
+#Box1{
+position: static;
+background-color: red;
+height: 200px;
+width: 200px;
+}
+#Box2{
+position: static;
+background-color: yellow;
+height: 200px;
+width: 200px;
+}
+#Box3{
+position: static;
+background-color: green;
+height: 200px;
+width: 200px;
+}

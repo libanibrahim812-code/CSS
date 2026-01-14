@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.container{
+    display: block;
+    min-height: 100px;
+    margin: 20px auto;
+    background-color: aqua;
+}
+
+.one{
+    display: block;
+    background-color: #f08080;
+    padding: 20px;
+    margin: 10px;
+    line-height: 160px;
+    border: 2px dashed black;
+    font-weight: bold;
+    height: 150px;  
+    width: 150px;   
+}
