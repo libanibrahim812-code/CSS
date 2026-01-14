@@ -1,0 +1,27 @@
+h1 {
+  color: blue;
+  text-align: center;
+  text-shadow: 5px 5px 3px red;
+  letter-spacing: 10px;
+}
+#m {
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+#n {
+  text-decoration: overline;
+  text-transform: uppercase;
+}
+#o {
+  text-decoration: line-through;
+  text-transform: lowercase;
+}
+p {
+  text-indent: 30px;
+  word-spacing: 10px;
+  line-height: 50px;
+  /* white-space: normal;  kani waa by default waa qori kartaa 
+  wana iska dhafi kartaa waa cagsiga white-space: nowrap;*/
+  /* white-space: nowrap; kani waxay ka dhigantahay hal sadar 
+  kawada dhig pragrphkayga*/
+}
